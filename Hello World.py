@@ -2,10 +2,10 @@ print("Hello, World!!!")
 def TellWithPython():
     x = input()
     name = ""
-    len = len(x)
-    for i in range(len):
-        if x[len-i-1] != " ":
-            name = x[len-i-1] + name
+    Len = len(x)
+    for i in range(Len):
+        if x[Len-i-1] != " ":
+            name = x[Len-i-1] + name
         else:
             break
     if x == "hello, pytho, my name is " + name:
